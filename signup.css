@@ -1,0 +1,187 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif
+}
+
+.logo h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:#08f4f8;
+    text-align: justify;
+    margin-left: 160px;
+    margin-top: 20px;
+font-size: 50px;
+    padding: 1rem 0;
+}
+.logo h2{
+    color: rgb(240, 125, 125)
+}
+
+.outer-box {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: red; */
+    text-align: center;
+    padding:auto;
+  }
+  
+  .background {
+    height: 59%;
+    background-color: #0850f8;
+    width: 60%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  
+    position: relative;
+  }
+
+
+
+
+.outer-box{
+    width: 100%;
+    height: 100%;
+    background:rgb(255, 255, 255);}
+    
+
+
+.inner-box{
+    width: 490px;
+    margin-left:750px;
+    
+    transform: translatey(-70%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left, rgb(153, 142, 235), #daa5a533);
+    backdrop-filter: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(127, 132, 228) ;
+    z-index: 2;
+}
+
+
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+
+.signup-header p{
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body label{
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 4px;
+}
+
+.signup-body p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #2773a5;
+}
+
+.signup-footer p{
+    color: #555;
+    text-align: center;
+}
+
+.signup-footer a{
+    color: #2773a5;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left: 40px;
+
+}
+
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
+    
+
+
+
+
+.lastp {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-top: 20px;
+    margin-top: 30px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .links a {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+  }
+  .links a:hover {
+    background-color: #0850f8;
+    transition: 0.3s ease;
+    color: #000000;
+  }
+  .twitter {
+    margin: 50px;
+    margin: 0;
+    height: 60px;
+    width: 75px;
+  }
